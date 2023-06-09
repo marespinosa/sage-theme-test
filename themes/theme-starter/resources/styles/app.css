@@ -1,0 +1,93 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+:root {
+
+    /* Colors: */
+    ---f8e4bb: #F8E4BB;
+    ---d6ebed: #D6EBED;
+    ---7ecfd6: #7ECFD6;
+    ---ebdbee: #EBDBEE;
+    ---dfa04d: #DFA04D;
+    ---d37e29: #D37E29;
+    --light-accent: #EBC372;
+    ---2b002f: #2B002F;
+    ---3b0642: #3B0642;
+    ---8e6293: #8E6293;
+    ---998ca2: #998CA2;
+    --light-shades: #DEDCE7;
+    --text: #302932;
+    ---f6f6f6: #F6F6F6;
+    ---efeff0: #EFEFF0;
+    --main-brand-color: #4D1254;
+    --white: #FFFFFF;
+    --gems-notes: #C600FF;
+    --dark-shades: #36243C;
+    ---443449: #443449;
+    ---5b4d67: #5B4D67;
+    ---004d54: #004D54;
+    ---09757f: #09757F;
+    --dark-accent: #11A8B5;
+    
+    /* Font/text values */
+    --unnamed-font-family-montserrat: Montserrat;
+    --unnamed-font-style-normal: normal;
+    --unnamed-font-style-italic: italic;
+    --unnamed-font-weight-900: 900px;
+    --unnamed-font-weight-bold: bold;
+    --unnamed-font-weight-medium: medium;
+    --unnamed-font-size-16: 16px;
+    --unnamed-font-size-24: 24px;
+    --unnamed-font-size-32: 32px;
+    --unnamed-font-size-48: 48px;
+    --unnamed-character-spacing-0: 0px;
+    --unnamed-line-spacing-24: 24px;
+    --unnamed-line-spacing-29: 29px;
+    --unnamed-line-spacing-39: 39px;
+    --unnamed-line-spacing-52: 52px;
+    --unnamed-text-transform-uppercase: uppercase;
+    }
+    
+    /* Character Styles */
+    .gem-s-notes {
+    font-family: var(--unnamed-font-family-montserrat);
+    font-style: var(--unnamed-font-style-italic);
+    font-weight: var(--unnamed-font-weight-900);
+    font-size: var(--unnamed-font-size-16);
+    line-height: var(--unnamed-line-spacing-24);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--gems-notes);
+    }
+    .h2-smaller {
+    font-family: var(--unnamed-font-family-montserrat);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-medium);
+    font-size: var(--unnamed-font-size-24);
+    line-height: var(--unnamed-line-spacing-29);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--main-brand-color);
+    text-transform: var(--unnamed-text-transform-uppercase);
+    }
+    .h2-heading {
+    font-family: var(--unnamed-font-family-montserrat);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-bold);
+    font-size: var(--unnamed-font-size-48);
+    line-height: var(--unnamed-line-spacing-52);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--main-brand-color);
+    }
+    .h3-heading {
+    font-family: var(--unnamed-font-family-montserrat);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-bold);
+    font-size: var(--unnamed-font-size-32);
+    line-height: var(--unnamed-line-spacing-39);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--main-brand-color);
+    }
+
+
+  
